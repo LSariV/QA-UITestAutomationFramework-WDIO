@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 23 17:20:46 PDT 2020","Mon Mar 23 17:20:48 PDT 2020","2590","","Navigate to apfmhome","","Navigate to apfmhome","assert title of apfm","assert title of apfm",""
+"passed","Mon Mar 23 17:20:48 PDT 2020","Mon Mar 23 17:20:50 PDT 2020","1796","","Navigate to apfmhome","","Navigate to apfmhome","submit the  first lead form in apfmhome","submit the  first lead form in apfmhome",""
+"passed","Mon Mar 23 17:20:50 PDT 2020","Mon Mar 23 17:20:51 PDT 2020","1129","","Navigate to apfmhome","","Navigate to apfmhome","submit the homepagestep2 lead form ","submit the homepagestep2 lead form ",""

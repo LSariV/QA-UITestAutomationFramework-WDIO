@@ -1,0 +1,72 @@
+{
+  "uid" : "20783bb6f591fdb9",
+  "name" : "validating the existance for  care provided in the community",
+  "fullName" : "communityapgetests.validating the existance for  care provided in the community",
+  "historyId" : "9147b5715e1d66c6d69882b6c2ef8bdf",
+  "time" : {
+    "start" : 1585054970610,
+    "stop" : 1585054971234,
+    "duration" : 624
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7f3bbf3cede8c82e",
+      "name" : "Execution video",
+      "source" : "7f3bbf3cede8c82e.mp4",
+      "type" : "video/mp4",
+      "size" : 1824
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "testClass",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "testMethod",
+    "value" : "validating the existance for  care provided in the community"
+  }, {
+    "name" : "package",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-79.0.3945.130"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20783bb6f591fdb9.json",
+  "parameterValues" : [ "chrome-79.0.3945.130" ]
+}

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "f22b13dbdc8a00a4",
+  "name" : "submit the  first lead form in apfmhome",
+  "time" : {
+    "start" : 1585009248607,
+    "stop" : 1585009250403,
+    "duration" : 1796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebe63d8859f271df",
+  "name" : "assert title of apfm",
+  "time" : {
+    "start" : 1585009246017,
+    "stop" : 1585009248607,
+    "duration" : 2590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d54010f8ca14ae9",
+  "name" : "submit the homepagestep2 lead form ",
+  "time" : {
+    "start" : 1585009250403,
+    "stop" : 1585009251532,
+    "duration" : 1129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

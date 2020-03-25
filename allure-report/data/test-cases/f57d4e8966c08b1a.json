@@ -1,0 +1,59 @@
+{
+  "uid" : "f57d4e8966c08b1a",
+  "name" : "assert title of apfm",
+  "fullName" : "Navigate to apfmhome.assert title of apfm",
+  "historyId" : "47b117e7d36f5ab65f95716f9e3bc35f",
+  "time" : {
+    "start" : 1585018359963,
+    "stop" : 1585018364178,
+    "duration" : 4215
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testMethod",
+    "value" : "assert title of apfm"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-10.0"
+  }, {
+    "name" : "browserVersion",
+    "value" : "74.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f57d4e8966c08b1a.json",
+  "parameterValues" : [ "firefox-10.0", "74.0" ]
+}

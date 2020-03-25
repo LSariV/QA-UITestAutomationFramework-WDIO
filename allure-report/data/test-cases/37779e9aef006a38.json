@@ -1,0 +1,75 @@
+{
+  "uid" : "37779e9aef006a38",
+  "name" : "submit the homepagestep2 lead form ",
+  "fullName" : "Navigate to apfmhome.submit the homepagestep2 lead form ",
+  "historyId" : "f12bb5360a2f929ce81218046abf734b",
+  "time" : {
+    "start" : 1585016033376,
+    "stop" : 1585016036838,
+    "duration" : 3462
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4a4a3d81fb0d1a91",
+      "name" : "Execution video",
+      "source" : "4a4a3d81fb0d1a91.mp4",
+      "type" : "video/mp4",
+      "size" : 44483
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit the homepagestep2 lead form "
+  }, {
+    "name" : "package",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-10.0"
+  }, {
+    "name" : "browserVersion",
+    "value" : "74.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37779e9aef006a38.json",
+  "parameterValues" : [ "firefox-10.0", "74.0" ]
+}

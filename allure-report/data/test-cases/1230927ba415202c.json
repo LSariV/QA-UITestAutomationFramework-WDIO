@@ -1,0 +1,244 @@
+{
+  "uid" : "1230927ba415202c",
+  "name" : "submit the homepagestep2 lead form ",
+  "fullName" : "Navigate to apfmhome.submit the homepagestep2 lead form ",
+  "historyId" : "2e1a0173a9a7b425508705d2e2c6a81f",
+  "time" : {
+    "start" : 1585161138781,
+    "stop" : 1585161150101,
+    "duration" : 11320
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"#leadFormFullname\") still not displayed after 10000ms\n                    at C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:30:15\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Element.waitForDisplayed (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\commands\\element\\waitForDisplayed.js:15:15)\n                    at Element.wrapCommandFn (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:54:17)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\middlewares.js:21:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:94:5)\n                    at Element.waitForDisplayed (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at ElementUtil.doSetValue (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\utils/elementUtil.js:11:13)\n                    at apfmhomePage.submitStep2LeadForm (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\Pages/apfmhomePage.js:49:17)\n                    at Context.<anonymous> (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\Tests\\Leads/Homepageleads.js:29:22)\n                    at Context.executeSync (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+    "statusTrace" : "Error: element (\"#leadFormFullname\") still not displayed after 10000ms\n                    at C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:30:15\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Element.waitForDisplayed (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\commands\\element\\waitForDisplayed.js:15:15)\n                    at Element.wrapCommandFn (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:54:17)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\middlewares.js:21:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:94:5)\n                    at Element.waitForDisplayed (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at ElementUtil.doSetValue (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\utils/elementUtil.js:11:13)\n                    at apfmhomePage.submitStep2LeadForm (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\Pages/apfmhomePage.js:49:17)\n                    at Context.<anonymous> (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\Tests\\Leads/Homepageleads.js:29:22)\n                    at Context.executeSync (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ee839a95b182ea4d",
+      "name" : "Execution video",
+      "source" : "ee839a95b182ea4d.mp4",
+      "type" : "video/mp4",
+      "size" : 39814
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit the homepagestep2 lead form "
+  }, {
+    "name" : "package",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-79.0.3945.130"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec433b5807386a6f",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585094395416,
+        "stop" : 1585094406731,
+        "duration" : 11315
+      }
+    }, {
+      "uid" : "69ebdf276cb094dd",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585085619613,
+        "stop" : 1585085630814,
+        "duration" : 11201
+      }
+    }, {
+      "uid" : "fdc4f39d16d2717d",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585085435222,
+        "stop" : 1585085446273,
+        "duration" : 11051
+      }
+    }, {
+      "uid" : "c94ae19e8aa4117d",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585085356548,
+        "stop" : 1585085367588,
+        "duration" : 11040
+      }
+    }, {
+      "uid" : "c4b8397a0621147",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585085055146,
+        "stop" : 1585085066270,
+        "duration" : 11124
+      }
+    }, {
+      "uid" : "6f1f34a1472a2327",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585084779401,
+        "stop" : 1585084790701,
+        "duration" : 11300
+      }
+    }, {
+      "uid" : "a33870bfba345d0a",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585083571841,
+        "stop" : 1585083582771,
+        "duration" : 10930
+      }
+    }, {
+      "uid" : "cc99d86981cb6cd0",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585083544273,
+        "stop" : 1585083555233,
+        "duration" : 10960
+      }
+    }, {
+      "uid" : "a8d31ab0ab526cc8",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585083516806,
+        "stop" : 1585083527747,
+        "duration" : 10941
+      }
+    }, {
+      "uid" : "f88c8e51db06feec",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585083488297,
+        "stop" : 1585083499583,
+        "duration" : 11286
+      }
+    }, {
+      "uid" : "da351add20eb5c6e",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585054981943,
+        "stop" : 1585054993016,
+        "duration" : 11073
+      }
+    }, {
+      "uid" : "fac9f0e436029e50",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585014794830,
+        "stop" : 1585014805779,
+        "duration" : 10949
+      }
+    }, {
+      "uid" : "db2cbb201f7f8679",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585014679555,
+        "stop" : 1585014690471,
+        "duration" : 10916
+      }
+    }, {
+      "uid" : "7bdacb38ee522fdc",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585014553758,
+        "stop" : 1585014564702,
+        "duration" : 10944
+      }
+    }, {
+      "uid" : "c2e9cc0c4f6148f2",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585014369558,
+        "stop" : 1585014380573,
+        "duration" : 11015
+      }
+    }, {
+      "uid" : "d5bc8d7c8387f4ab",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585013758983,
+        "stop" : 1585013770021,
+        "duration" : 11038
+      }
+    }, {
+      "uid" : "3b4ddbba17c38068",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585013317576,
+        "stop" : 1585013328493,
+        "duration" : 10917
+      }
+    }, {
+      "uid" : "c95675a69ae54488",
+      "status" : "broken",
+      "statusDetails" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1585013251006,
+        "stop" : 1585013261930,
+        "duration" : 10924
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1230927ba415202c.json",
+  "parameterValues" : [ "chrome-79.0.3945.130" ]
+}

@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Navigate to apfmhome",
+    "children" : [ {
+      "name" : "assert title of apfm",
+      "uid" : "ebe63d8859f271df",
+      "parentUid" : "82ca675ba898bb23c7db63a69c8a6b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585009246017,
+        "stop" : 1585009248607,
+        "duration" : 2590
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-10.0" ]
+    }, {
+      "name" : "submit the  first lead form in apfmhome",
+      "uid" : "f22b13dbdc8a00a4",
+      "parentUid" : "82ca675ba898bb23c7db63a69c8a6b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585009248607,
+        "stop" : 1585009250403,
+        "duration" : 1796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-10.0" ]
+    }, {
+      "name" : "submit the homepagestep2 lead form ",
+      "uid" : "9d54010f8ca14ae9",
+      "parentUid" : "82ca675ba898bb23c7db63a69c8a6b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585009250403,
+        "stop" : 1585009251532,
+        "duration" : 1129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-10.0" ]
+    } ],
+    "uid" : "82ca675ba898bb23c7db63a69c8a6b79"
+  } ]
+}

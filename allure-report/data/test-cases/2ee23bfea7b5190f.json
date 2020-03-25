@@ -1,0 +1,72 @@
+{
+  "uid" : "2ee23bfea7b5190f",
+  "name" : "validating the existance for Pricing module ",
+  "fullName" : "communityapgetests.validating the existance for Pricing module ",
+  "historyId" : "5c6f03e7bdb3c817064cdc1c1a6dcd93",
+  "time" : {
+    "start" : 1585094382801,
+    "stop" : 1585094383931,
+    "duration" : 1130
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "146d39af7274dc80",
+      "name" : "Execution video",
+      "source" : "146d39af7274dc80.mp4",
+      "type" : "video/mp4",
+      "size" : 1824
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "testClass",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "testMethod",
+    "value" : "validating the existance for Pricing module "
+  }, {
+    "name" : "package",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-79.0.3945.130"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ee23bfea7b5190f.json",
+  "parameterValues" : [ "chrome-79.0.3945.130" ]
+}

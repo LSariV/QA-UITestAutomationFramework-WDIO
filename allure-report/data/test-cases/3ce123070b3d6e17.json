@@ -1,0 +1,155 @@
+{
+  "uid" : "3ce123070b3d6e17",
+  "name" : "submit the  first lead form in apfmhome",
+  "fullName" : "Navigate to apfmhome.submit the  first lead form in apfmhome",
+  "historyId" : "8e280c59bb80600a7c5b22166f62d4ba",
+  "time" : {
+    "start" : 1585053856180,
+    "stop" : 1585053859865,
+    "duration" : 3685
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3e30e31509b3fc96",
+      "name" : "Execution video",
+      "source" : "3e30e31509b3fc96.mp4",
+      "type" : "video/mp4",
+      "size" : 58650
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit the  first lead form in apfmhome"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-10.0"
+  }, {
+    "name" : "browserVersion",
+    "value" : "74.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a938c3675cfe6262",
+      "status" : "broken",
+      "statusDetails" : "Element <span> is not clickable at point (316,512) because another element <div class=\"pac-container pac-logo\"> obscures it",
+      "time" : {
+        "start" : 1585051612995,
+        "stop" : 1585051615126,
+        "duration" : 2131
+      }
+    }, {
+      "uid" : "5f90a5456b77ec32",
+      "status" : "broken",
+      "statusDetails" : "Element <span> is not clickable at point (316,512) because another element <div class=\"pac-container pac-logo\"> obscures it",
+      "time" : {
+        "start" : 1585018525875,
+        "stop" : 1585018527699,
+        "duration" : 1824
+      }
+    }, {
+      "uid" : "ab53223ba3efe952",
+      "status" : "broken",
+      "statusDetails" : "Element <span> is not clickable at point (316,512) because another element <div class=\"pac-container pac-logo\"> obscures it",
+      "time" : {
+        "start" : 1585018472859,
+        "stop" : 1585018475350,
+        "duration" : 2491
+      }
+    }, {
+      "uid" : "ccf0067114123213",
+      "status" : "broken",
+      "statusDetails" : "Element <span> is not clickable at point (316,512) because another element <div class=\"pac-container pac-logo\"> obscures it",
+      "time" : {
+        "start" : 1585018364181,
+        "stop" : 1585018366240,
+        "duration" : 2059
+      }
+    }, {
+      "uid" : "61a5b948bdd29514",
+      "status" : "broken",
+      "statusDetails" : "Element <span> is not clickable at point (316,512) because another element <div class=\"pac-container pac-logo\"> obscures it",
+      "time" : {
+        "start" : 1585016670377,
+        "stop" : 1585016680960,
+        "duration" : 10583
+      }
+    }, {
+      "uid" : "9847c2e1431d07c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585016448315,
+        "stop" : 1585016450048,
+        "duration" : 1733
+      }
+    }, {
+      "uid" : "7699318cad156291",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585016031355,
+        "stop" : 1585016033359,
+        "duration" : 2004
+      }
+    }, {
+      "uid" : "25da28b282210ef3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585015330717,
+        "stop" : 1585015332646,
+        "duration" : 1929
+      }
+    }, {
+      "uid" : "cb270a95090ab844",
+      "status" : "broken",
+      "statusDetails" : "Element <span> is not clickable at point (316,512) because another element <div class=\"pac-container pac-logo\"> obscures it",
+      "time" : {
+        "start" : 1585013069397,
+        "stop" : 1585013070995,
+        "duration" : 1598
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ce123070b3d6e17.json",
+  "parameterValues" : [ "firefox-10.0", "74.0" ]
+}

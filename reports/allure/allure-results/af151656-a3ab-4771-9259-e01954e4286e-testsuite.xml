@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585094380845' stop='1585094386294'>
+    <name>communityapgetests</name>
+    <title>communityapgetests</title>
+    <test-cases>
+        <test-case start='1585094380898' status='passed' stop='1585094381275'>
+            <name>communitypage assertions</name>
+            <title>communitypage assertions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.130'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='30054401-7210-4f09-b15c-a045a0ed65f6-attachment.mp4' type='video/mp4' size='145'/>
+            </attachments>
+        </test-case>
+        <test-case start='1585094381307' status='passed' stop='1585094382776'>
+            <name>validating the existance for phonenumber and review wrapper in detail screen</name>
+            <title>validating the existance for phonenumber and review wrapper in detail screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.130'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='e82f21c8-ef6c-43af-86cd-752c916a57f8-attachment.mp4' type='video/mp4' size='197'/>
+            </attachments>
+        </test-case>
+        <test-case start='1585094382801' status='passed' stop='1585094383931'>
+            <name>validating the existance for Pricing module </name>
+            <title>validating the existance for Pricing module </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.130'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='e056be67-938c-4754-ad8d-3e25ae207108-attachment.mp4' type='video/mp4' size='165'/>
+            </attachments>
+        </test-case>
+        <test-case start='1585094383951' status='passed' stop='1585094385342'>
+            <name>validating the existance for  care provided in the community</name>
+            <title>validating the existance for  care provided in the community</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.130'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='95712cce-c15b-48fd-a144-e6237756082f-attachment.mp4' type='video/mp4' size='181'/>
+            </attachments>
+        </test-case>
+        <test-case start='1585094385368' status='passed' stop='1585094386273'>
+            <name>validating the existance for community review card </name>
+            <title>validating the existance for community review card </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.130'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='f25209de-edea-4bbe-a13d-c4f716120f1a-attachment.mp4' type='video/mp4' size='172'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

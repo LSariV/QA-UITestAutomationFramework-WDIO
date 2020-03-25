@@ -1,0 +1,72 @@
+{
+  "uid" : "5f531e5135676848",
+  "name" : "getpricing lead ",
+  "fullName" : "Destination Page leads.getpricing lead ",
+  "historyId" : "b95ab565b686c66b3c32e5493a892938",
+  "time" : {
+    "start" : 1585054780797,
+    "stop" : 1585054787472,
+    "duration" : 6675
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b4e1686e987d3d95",
+      "name" : "Execution video",
+      "source" : "b4e1686e987d3d95.mp4",
+      "type" : "video/mp4",
+      "size" : 102084
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Destination Page leads"
+  }, {
+    "name" : "testClass",
+    "value" : "Destination Page leads"
+  }, {
+    "name" : "testMethod",
+    "value" : "getpricing lead "
+  }, {
+    "name" : "package",
+    "value" : "Destination Page leads"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-79.0.3945.130"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f531e5135676848.json",
+  "parameterValues" : [ "chrome-79.0.3945.130" ]
+}

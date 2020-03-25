@@ -1,0 +1,72 @@
+{
+  "uid" : "38bc747add74dee2",
+  "name" : "assert title of apfm",
+  "fullName" : "Navigate to apfmhome.assert title of apfm",
+  "historyId" : "79cfc6e009d687a5e41a8df2d49bc2e2",
+  "time" : {
+    "start" : 1585014766819,
+    "stop" : 1585014793053,
+    "duration" : 26234
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "97d86f735bfdad65",
+      "name" : "Execution video",
+      "source" : "97d86f735bfdad65.mp4",
+      "type" : "video/mp4",
+      "size" : 58134
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testMethod",
+    "value" : "assert title of apfm"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-79.0.3945.130"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38bc747add74dee2.json",
+  "parameterValues" : [ "chrome-79.0.3945.130" ]
+}

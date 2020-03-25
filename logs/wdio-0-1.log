@@ -1,0 +1,128 @@
+2020-03-25T18:31:50.243Z INFO @wdio/local-runner: Run worker command: run
+2020-03-25T18:31:50.988Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-03-25T18:31:50.990Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session
+2020-03-25T18:31:50.990Z INFO webdriver: DATA {
+  capabilities: { alwaysMatch: { browserName: 'chrome' }, firstMatch: [ {} ] },
+  desiredCapabilities: { browserName: 'chrome' }
+}
+2020-03-25T18:32:04.622Z INFO webdriver: COMMAND navigateTo("https://www.aplaceformom.com/assisted-living/washington/bellevue")
+2020-03-25T18:32:04.623Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/url
+2020-03-25T18:32:04.623Z INFO webdriver: DATA {
+  url: 'https://www.aplaceformom.com/assisted-living/washington/bellevue'
+}
+2020-03-25T18:32:13.228Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:13.229Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:13.231Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="DestinationResultsList"]/li[1]/article/section/div[2]/a")
+2020-03-25T18:32:13.232Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element
+2020-03-25T18:32:13.232Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//*[@id="DestinationResultsList"]/li[1]/article/section/div[2]/a'
+}
+2020-03-25T18:32:14.107Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:14.124Z INFO webdriver: RESULT { ELEMENT: '0.20518172953605318-1' }
+2020-03-25T18:32:14.141Z INFO webdriver: COMMAND elementClick("0.20518172953605318-1")
+2020-03-25T18:32:14.142Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element/0.20518172953605318-1/click
+2020-03-25T18:32:16.939Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:16.939Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:16.941Z INFO webdriver: COMMAND findElement("css selector", "#leadFormEmail")
+2020-03-25T18:32:16.942Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element
+2020-03-25T18:32:16.942Z INFO webdriver: DATA { using: 'css selector', value: '#leadFormEmail' }
+2020-03-25T18:32:17.590Z INFO webdriver: RESULT { ELEMENT: '0.05065483489919509-1' }
+2020-03-25T18:32:17.598Z INFO webdriver: COMMAND elementClear("0.05065483489919509-1")
+2020-03-25T18:32:17.598Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element/0.05065483489919509-1/clear
+2020-03-25T18:32:17.603Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:17.706Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:17.706Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:17.715Z INFO webdriver: COMMAND elementSendKeys("0.05065483489919509-1", <object>)
+2020-03-25T18:32:17.716Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element/0.05065483489919509-1/value
+2020-03-25T18:32:17.716Z INFO webdriver: DATA {
+  value: [
+    't', 'e', 's', 't', '@',
+    'a', 'p', 'l', 'a', 'c',
+    'e', 'f', 'o', 'r', 'm',
+    'o', 'm', '.', 'c', 'o',
+    'm'
+  ]
+}
+2020-03-25T18:32:18.277Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:18.716Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:18.716Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:18.717Z INFO webdriver: COMMAND findElement("css selector", "#leadFormFullname")
+2020-03-25T18:32:18.717Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element
+2020-03-25T18:32:18.717Z INFO webdriver: DATA { using: 'css selector', value: '#leadFormFullname' }
+2020-03-25T18:32:19.326Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:19.352Z INFO webdriver: RESULT { ELEMENT: '0.05065483489919509-2' }
+2020-03-25T18:32:19.357Z INFO webdriver: COMMAND elementClear("0.05065483489919509-2")
+2020-03-25T18:32:19.357Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element/0.05065483489919509-2/clear
+2020-03-25T18:32:19.437Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:19.437Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:19.438Z INFO webdriver: COMMAND elementSendKeys("0.05065483489919509-2", <object>)
+2020-03-25T18:32:19.439Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element/0.05065483489919509-2/value
+2020-03-25T18:32:19.439Z INFO webdriver: DATA { value: [ 't', 'e', 's', 't' ] }
+2020-03-25T18:32:20.011Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:20.193Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:20.194Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:20.195Z INFO webdriver: COMMAND findElement("css selector", "#leadFormPhone")
+2020-03-25T18:32:20.195Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element
+2020-03-25T18:32:20.195Z INFO webdriver: DATA { using: 'css selector', value: '#leadFormPhone' }
+2020-03-25T18:32:20.716Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:20.726Z INFO webdriver: RESULT { ELEMENT: '0.05065483489919509-3' }
+2020-03-25T18:32:20.730Z INFO webdriver: COMMAND elementClear("0.05065483489919509-3")
+2020-03-25T18:32:20.731Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element/0.05065483489919509-3/clear
+2020-03-25T18:32:20.789Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:20.789Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:20.791Z INFO webdriver: COMMAND elementSendKeys("0.05065483489919509-3", <object>)
+2020-03-25T18:32:20.792Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element/0.05065483489919509-3/value
+2020-03-25T18:32:20.792Z INFO webdriver: DATA {
+  value: [
+    '5', '5', '5', '5',
+    '5', '5', '5', '5',
+    '5', '5'
+  ]
+}
+2020-03-25T18:32:21.254Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:21.384Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:21.384Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:21.385Z INFO webdriver: COMMAND findElement("xpath", "//button[@class="submit-btn"]")
+2020-03-25T18:32:21.386Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element
+2020-03-25T18:32:21.386Z INFO webdriver: DATA { using: 'xpath', value: '//button[@class="submit-btn"]' }
+2020-03-25T18:32:21.772Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:21.775Z INFO webdriver: RESULT { ELEMENT: '0.05065483489919509-4' }
+2020-03-25T18:32:21.779Z INFO webdriver: COMMAND elementClick("0.05065483489919509-4")
+2020-03-25T18:32:21.780Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/element/0.05065483489919509-4/click
+2020-03-25T18:32:21.855Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:21.856Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:21.873Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:21.873Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/screenshot
+2020-03-25T18:32:22.114Z INFO webdriver: COMMAND getLogTypes()
+2020-03-25T18:32:22.114Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/se/log/types
+2020-03-25T18:32:22.126Z DEBUG webdriver: request failed due to missing body
+2020-03-25T18:32:22.126Z WARN webdriver: Request failed due to unknown command: session/24fa851233a18400dbe016079579a7f4/se/log/types
+2020-03-25T18:32:22.126Z INFO webdriver: Retrying 1/1
+2020-03-25T18:32:22.126Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4/se/log/types
+2020-03-25T18:32:22.130Z DEBUG webdriver: request failed due to missing body
+2020-03-25T18:32:22.131Z ERROR webdriver: Request failed due to Error: unknown command: session/24fa851233a18400dbe016079579a7f4/se/log/types
+    at getErrorFromResponseBody (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\webdriver\build\utils.js:117:12)
+    at Request._callback (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\webdriver\build\request.js:121:64)
+    at Request.self.callback (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.<anonymous> (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at IncomingMessage.<anonymous> (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:312:28)
+2020-03-25T18:32:22.142Z INFO webdriver: COMMAND deleteSession()
+2020-03-25T18:32:22.142Z INFO webdriver: [DELETE] http://127.0.0.1:4444/wd/hub/session/24fa851233a18400dbe016079579a7f4
+2020-03-25T18:32:22.333Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:22.738Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:22.934Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:23.034Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:23.142Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:23.243Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:23.343Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:23.443Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:23.543Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:23.643Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:23.744Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:23.844Z INFO @wdio/runner: Wait for 1 reporter to synchronise

@@ -1,0 +1,79 @@
+{
+  "uid" : "63c1cea8072e4bae",
+  "name" : "getpricing lead ",
+  "fullName" : "Destination Page leads.getpricing lead ",
+  "historyId" : "ca96a3168b82d35c5affcac86b258a47",
+  "time" : {
+    "start" : 1585017762237,
+    "stop" : 1585017762350,
+    "duration" : 113
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "destinationPage.open is not a function",
+  "statusTrace" : "TypeError: destinationPage.open is not a function\n                    at Context.<anonymous> (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\Tests\\Leads/DestinationPageGetPricing.js:10:21)\n                    at Context.executeSync (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "destinationPage.open is not a function",
+    "statusTrace" : "TypeError: destinationPage.open is not a function\n                    at Context.<anonymous> (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\Tests\\Leads/DestinationPageGetPricing.js:10:21)\n                    at Context.executeSync (C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lakshmi.valasapalli\\OneDrive\\Desktop\\apfm\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bbe2d1a1b20772fb",
+      "name" : "Execution video",
+      "source" : "bbe2d1a1b20772fb.mp4",
+      "type" : "video/mp4",
+      "size" : 1743
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Destination Page leads"
+  }, {
+    "name" : "testClass",
+    "value" : "Destination Page leads"
+  }, {
+    "name" : "testMethod",
+    "value" : "getpricing lead "
+  }, {
+    "name" : "package",
+    "value" : "Destination Page leads"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-10.0"
+  }, {
+    "name" : "browserVersion",
+    "value" : "74.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63c1cea8072e4bae.json",
+  "parameterValues" : [ "firefox-10.0", "74.0" ]
+}

@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585084770542' stop='1585084781530'>
+    <name>Destination Page leads</name>
+    <title>Destination Page leads</title>
+    <test-cases>
+        <test-case start='1585084770566' status='passed' stop='1585084781501'>
+            <name>getpricing lead </name>
+            <title>getpricing lead </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.130'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='1c89e0a9-2cd8-4f8f-b3d4-c50063c5949b-attachment.mp4' type='video/mp4' size='141'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,168 @@
+2020-03-25T18:31:50.232Z INFO @wdio/local-runner: Run worker command: run
+2020-03-25T18:31:50.989Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-03-25T18:31:50.991Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session
+2020-03-25T18:31:50.991Z INFO webdriver: DATA {
+  capabilities: { alwaysMatch: { browserName: 'chrome' }, firstMatch: [ {} ] },
+  desiredCapabilities: { browserName: 'chrome' }
+}
+2020-03-25T18:32:05.044Z INFO webdriver: COMMAND getTitle()
+2020-03-25T18:32:05.046Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/title
+2020-03-25T18:32:05.131Z INFO webdriver: RESULT 
+2020-03-25T18:32:05.160Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:05.161Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/screenshot
+2020-03-25T18:32:05.167Z INFO webdriver: COMMAND findElement("xpath", "//div[@class="contact-review-wrapper"]//div[@class="need-help"]")
+2020-03-25T18:32:05.168Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/element
+2020-03-25T18:32:05.168Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//div[@class="contact-review-wrapper"]//div[@class="need-help"]'
+}
+2020-03-25T18:32:05.922Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:05.984Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="contact-review-wrapper"]//div[@class="need-help"]"}\n' +
+    '  (Session info: chrome=79.0.3945.130)\n' +
+    '  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18363 x86_64)'
+}
+2020-03-25T18:32:06.004Z INFO webdriver: COMMAND findElement("xpath", "//div[@class="contact-review-wrapper"]//div[@class="need-help"]")
+2020-03-25T18:32:06.006Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/element
+2020-03-25T18:32:06.006Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//div[@class="contact-review-wrapper"]//div[@class="need-help"]'
+}
+2020-03-25T18:32:06.039Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="contact-review-wrapper"]//div[@class="need-help"]"}\n' +
+    '  (Session info: chrome=79.0.3945.130)\n' +
+    '  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18363 x86_64)'
+}
+2020-03-25T18:32:06.067Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:06.068Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/screenshot
+2020-03-25T18:32:06.085Z INFO webdriver: COMMAND findElement("css selector", ".Pricing-module")
+2020-03-25T18:32:06.086Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/element
+2020-03-25T18:32:06.086Z INFO webdriver: DATA { using: 'css selector', value: '.Pricing-module' }
+2020-03-25T18:32:06.565Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:06.602Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":".Pricing-module"}\n' +
+    '  (Session info: chrome=79.0.3945.130)\n' +
+    '  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18363 x86_64)'
+}
+2020-03-25T18:32:06.609Z INFO webdriver: COMMAND findElement("css selector", ".Pricing-module")
+2020-03-25T18:32:06.610Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/element
+2020-03-25T18:32:06.610Z INFO webdriver: DATA { using: 'css selector', value: '.Pricing-module' }
+2020-03-25T18:32:06.630Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":".Pricing-module"}\n' +
+    '  (Session info: chrome=79.0.3945.130)\n' +
+    '  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18363 x86_64)'
+}
+2020-03-25T18:32:06.655Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:06.656Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/screenshot
+2020-03-25T18:32:06.661Z INFO webdriver: COMMAND findElement("xpath", ".//h2[contains(., "Senior Housing Types Provided at")]")
+2020-03-25T18:32:06.661Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/element
+2020-03-25T18:32:06.661Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: './/h2[contains(., "Senior Housing Types Provided at")]'
+}
+2020-03-25T18:32:07.164Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:07.185Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"xpath","selector":".//h2[contains(., "Senior Housing Types Provided at")]"}\n' +
+    '  (Session info: chrome=79.0.3945.130)\n' +
+    '  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18363 x86_64)'
+}
+2020-03-25T18:32:07.193Z INFO webdriver: COMMAND findElement("xpath", ".//h2[contains(., "Senior Housing Types Provided at")]")
+2020-03-25T18:32:07.194Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/element
+2020-03-25T18:32:07.194Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: './/h2[contains(., "Senior Housing Types Provided at")]'
+}
+2020-03-25T18:32:07.229Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"xpath","selector":".//h2[contains(., "Senior Housing Types Provided at")]"}\n' +
+    '  (Session info: chrome=79.0.3945.130)\n' +
+    '  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18363 x86_64)'
+}
+2020-03-25T18:32:07.259Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:07.260Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/screenshot
+2020-03-25T18:32:07.264Z INFO webdriver: COMMAND findElement("xpath", ".//h2[contains(., "Reviews of ")]")
+2020-03-25T18:32:07.264Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/element
+2020-03-25T18:32:07.264Z INFO webdriver: DATA { using: 'xpath', value: './/h2[contains(., "Reviews of ")]' }
+2020-03-25T18:32:08.031Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:08.116Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"xpath","selector":".//h2[contains(., "Reviews of ")]"}\n' +
+    '  (Session info: chrome=79.0.3945.130)\n' +
+    '  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18363 x86_64)'
+}
+2020-03-25T18:32:08.129Z INFO webdriver: COMMAND findElement("xpath", ".//h2[contains(., "Reviews of ")]")
+2020-03-25T18:32:08.129Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/element
+2020-03-25T18:32:08.129Z INFO webdriver: DATA { using: 'xpath', value: './/h2[contains(., "Reviews of ")]' }
+2020-03-25T18:32:08.265Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"xpath","selector":".//h2[contains(., "Reviews of ")]"}\n' +
+    '  (Session info: chrome=79.0.3945.130)\n' +
+    '  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18363 x86_64)'
+}
+2020-03-25T18:32:08.289Z INFO webdriver: COMMAND takeScreenshot()
+2020-03-25T18:32:08.289Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/screenshot
+2020-03-25T18:32:08.954Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAA6EAAAPwCAYAAADAiXh4AAAAAXNSR0IArs4c6...
+2020-03-25T18:32:09.185Z INFO webdriver: COMMAND getLogTypes()
+2020-03-25T18:32:09.186Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/se/log/types
+2020-03-25T18:32:09.215Z DEBUG webdriver: request failed due to missing body
+2020-03-25T18:32:09.215Z WARN webdriver: Request failed due to unknown command: session/fe76b2bb85aa8b460ec427769c223b5f/se/log/types
+2020-03-25T18:32:09.215Z INFO webdriver: Retrying 1/1
+2020-03-25T18:32:09.215Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f/se/log/types
+2020-03-25T18:32:09.241Z DEBUG webdriver: request failed due to missing body
+2020-03-25T18:32:09.241Z ERROR webdriver: Request failed due to Error: unknown command: session/fe76b2bb85aa8b460ec427769c223b5f/se/log/types
+    at getErrorFromResponseBody (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\webdriver\build\utils.js:117:12)
+    at Request._callback (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\webdriver\build\request.js:121:64)
+    at Request.self.callback (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.<anonymous> (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at IncomingMessage.<anonymous> (C:\Users\lakshmi.valasapalli\OneDrive\Desktop\apfm\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:312:28)
+2020-03-25T18:32:09.248Z INFO webdriver: COMMAND deleteSession()
+2020-03-25T18:32:09.249Z INFO webdriver: [DELETE] http://127.0.0.1:4444/wd/hub/session/fe76b2bb85aa8b460ec427769c223b5f
+2020-03-25T18:32:11.757Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:11.880Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:11.981Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:12.081Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:12.189Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:12.298Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:12.398Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:12.507Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:12.607Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:12.728Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:12.830Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:12.931Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.031Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.131Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.244Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.347Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.448Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.549Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.656Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.757Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.858Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:13.959Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:14.062Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:14.169Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:14.277Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:14.377Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:14.507Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:14.618Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:14.720Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:14.826Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:14.928Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:15.029Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:15.128Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:15.247Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:15.356Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:15.458Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:15.571Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:15.676Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:15.786Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:15.893Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:16.014Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:16.121Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:16.222Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:16.328Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:16.430Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:16.531Z INFO @wdio/runner: Wait for 1 reporter to synchronise
+2020-03-25T18:32:16.631Z INFO @wdio/runner: Wait for 1 reporter to synchronise

@@ -1,0 +1,58 @@
+{
+  "uid" : "77bc8daff07ff984",
+  "name" : "submit the  first lead form in apfmhome",
+  "fullName" : "Navigate to apfmhome.submit the  first lead form in apfmhome",
+  "historyId" : "c37c45fd512cfb13a35512930bb87094",
+  "time" : {
+    "start" : 1585009248607,
+    "stop" : 1585009250403,
+    "duration" : 1796
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit the  first lead form in apfmhome"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to apfmhome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-10.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77bc8daff07ff984.json",
+  "parameterValues" : [ "firefox-10.0" ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "ee031642f16694dd",
+  "name" : "getpricing lead ",
+  "fullName" : "Destination Page leads.getpricing lead ",
+  "historyId" : "ca96a3168b82d35c5affcac86b258a47",
+  "time" : {
+    "start" : 1585018359988,
+    "stop" : 1585018368576,
+    "duration" : 8588
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Destination Page leads"
+  }, {
+    "name" : "testClass",
+    "value" : "Destination Page leads"
+  }, {
+    "name" : "testMethod",
+    "value" : "getpricing lead "
+  }, {
+    "name" : "package",
+    "value" : "Destination Page leads"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-10.0"
+  }, {
+    "name" : "browserVersion",
+    "value" : "74.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee031642f16694dd.json",
+  "parameterValues" : [ "firefox-10.0", "74.0" ]
+}

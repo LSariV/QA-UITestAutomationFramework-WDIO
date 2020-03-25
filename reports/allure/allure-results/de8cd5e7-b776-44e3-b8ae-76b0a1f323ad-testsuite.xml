@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585018360225' stop='1585018360632'>
+    <name>communityapgetests</name>
+    <title>communityapgetests</title>
+    <test-cases>
+        <test-case start='1585018360234' status='passed' stop='1585018360453'>
+            <name>communitypage assertions</name>
+            <title>communitypage assertions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585018360458' status='passed' stop='1585018360524'>
+            <name>validating the existance for phonenumber and review wrapper in detail screen</name>
+            <title>validating the existance for phonenumber and review wrapper in detail screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585018360525' status='passed' stop='1585018360564'>
+            <name>validating the existance for Pricing module </name>
+            <title>validating the existance for Pricing module </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585018360567' status='passed' stop='1585018360598'>
+            <name>validating the existance for  care provided in the community</name>
+            <title>validating the existance for  care provided in the community</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585018360600' status='passed' stop='1585018360630'>
+            <name>validating the existance for community review card </name>
+            <title>validating the existance for community review card </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

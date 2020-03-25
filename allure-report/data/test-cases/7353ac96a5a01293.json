@@ -1,0 +1,90 @@
+{
+  "uid" : "7353ac96a5a01293",
+  "name" : "validating the existance for community review card ",
+  "fullName" : "communityapgetests.validating the existance for community review card ",
+  "historyId" : "1a27e4d642f905045c04bf42dd2f0610",
+  "time" : {
+    "start" : 1585161127263,
+    "stop" : 1585161128270,
+    "duration" : 1007
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c306d5896f9a3ae9",
+      "name" : "Execution video",
+      "source" : "c306d5896f9a3ae9.mp4",
+      "type" : "video/mp4",
+      "size" : 1824
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "testClass",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "testMethod",
+    "value" : "validating the existance for community review card "
+  }, {
+    "name" : "package",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-79.0.3945.130"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f7c4a132d36a6304",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585094385368,
+        "stop" : 1585094386273,
+        "duration" : 905
+      }
+    }, {
+      "uid" : "8402716ed2adcd39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585054971254,
+        "stop" : 1585054972041,
+        "duration" : 787
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7353ac96a5a01293.json",
+  "parameterValues" : [ "chrome-79.0.3945.130" ]
+}

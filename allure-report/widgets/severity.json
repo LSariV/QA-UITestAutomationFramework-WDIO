@@ -1,0 +1,211 @@
+[ {
+  "uid" : "14229c509007129",
+  "name" : "validating the existance for phonenumber and review wrapper in detail screen",
+  "time" : {
+    "start" : 1585161125164,
+    "stop" : 1585161126045,
+    "duration" : 881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a202039bf0d6b15",
+  "name" : "assert title of apfm",
+  "time" : {
+    "start" : 1585053851184,
+    "stop" : 1585053856126,
+    "duration" : 4942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e0fe5d187b6ce16",
+  "name" : "validating the existance for community review card ",
+  "time" : {
+    "start" : 1585053852654,
+    "stop" : 1585053852876,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ce123070b3d6e17",
+  "name" : "submit the  first lead form in apfmhome",
+  "time" : {
+    "start" : 1585053856180,
+    "stop" : 1585053859865,
+    "duration" : 3685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2248666f30dfe8cd",
+  "name" : "assert title of apfm",
+  "time" : {
+    "start" : 1585009246017,
+    "stop" : 1585009248607,
+    "duration" : 2590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "115d86d25d1b1eea",
+  "name" : "validating the existance for  care provided in the community",
+  "time" : {
+    "start" : 1585161126659,
+    "stop" : 1585161127235,
+    "duration" : 576
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a22fd6d49cc18785",
+  "name" : "validating the existance for phonenumber and review wrapper in detail screen",
+  "time" : {
+    "start" : 1585053852109,
+    "stop" : 1585053852348,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0061ca3e6da75e",
+  "name" : "submit the homepagestep2 lead form ",
+  "time" : {
+    "start" : 1585053859887,
+    "stop" : 1585053867221,
+    "duration" : 7334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9be55924c20c58c5",
+  "name" : "validating the existance for  care provided in the community",
+  "time" : {
+    "start" : 1585053852535,
+    "stop" : 1585053852621,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1230927ba415202c",
+  "name" : "submit the homepagestep2 lead form ",
+  "time" : {
+    "start" : 1585161138781,
+    "stop" : 1585161150101,
+    "duration" : 11320
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "780378249f5b2d1d",
+  "name" : "submit the homepagestep2 lead form ",
+  "time" : {
+    "start" : 1585009250403,
+    "stop" : 1585009251532,
+    "duration" : 1129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77bc8daff07ff984",
+  "name" : "submit the  first lead form in apfmhome",
+  "time" : {
+    "start" : 1585009248607,
+    "stop" : 1585009250403,
+    "duration" : 1796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7353ac96a5a01293",
+  "name" : "validating the existance for community review card ",
+  "time" : {
+    "start" : 1585161127263,
+    "stop" : 1585161128270,
+    "duration" : 1007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7774ab1842d8b756",
+  "name" : "getpricing lead ",
+  "time" : {
+    "start" : 1585053851190,
+    "stop" : 1585053863141,
+    "duration" : 11951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1455b3ac7591ec7c",
+  "name" : "submit the  first lead form in apfmhome",
+  "time" : {
+    "start" : 1585161134561,
+    "stop" : 1585161138756,
+    "duration" : 4195
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c87389902ec761bf",
+  "name" : "communitypage assertions",
+  "time" : {
+    "start" : 1585161124824,
+    "stop" : 1585161125134,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a65d048e5991701",
+  "name" : "assert title of apfm",
+  "time" : {
+    "start" : 1585161124011,
+    "stop" : 1585161134515,
+    "duration" : 10504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76df30490be004b",
+  "name" : "validating the existance for Pricing module ",
+  "time" : {
+    "start" : 1585053852376,
+    "stop" : 1585053852462,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8192355743635a40",
+  "name" : "validating the existance for Pricing module ",
+  "time" : {
+    "start" : 1585161126076,
+    "stop" : 1585161126637,
+    "duration" : 561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5900f041d816dc7f",
+  "name" : "getpricing lead ",
+  "time" : {
+    "start" : 1585161124047,
+    "stop" : 1585161141857,
+    "duration" : 17810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86d660c70a49f9e8",
+  "name" : "communitypage assertions",
+  "time" : {
+    "start" : 1585053851288,
+    "stop" : 1585053852055,
+    "duration" : 767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

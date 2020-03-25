@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585018522955' stop='1585018523718'>
+    <name>communityapgetests</name>
+    <title>communityapgetests</title>
+    <test-cases>
+        <test-case start='1585018522966' status='passed' stop='1585018523102'>
+            <name>communitypage assertions</name>
+            <title>communitypage assertions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='9e353f41-bd60-4fb5-a512-00e721219b9e-attachment.mp4' type='video/mp4' size='146'/>
+            </attachments>
+        </test-case>
+        <test-case start='1585018523137' status='passed' stop='1585018523268'>
+            <name>validating the existance for phonenumber and review wrapper in detail screen</name>
+            <title>validating the existance for phonenumber and review wrapper in detail screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='f97ecad7-170f-432e-ab81-a2ca2e07012d-attachment.mp4' type='video/mp4' size='198'/>
+            </attachments>
+        </test-case>
+        <test-case start='1585018523345' status='passed' stop='1585018523442'>
+            <name>validating the existance for Pricing module </name>
+            <title>validating the existance for Pricing module </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='b2d2ca45-9d73-46dc-902e-e4e917225d7e-attachment.mp4' type='video/mp4' size='166'/>
+            </attachments>
+        </test-case>
+        <test-case start='1585018523464' status='passed' stop='1585018523585'>
+            <name>validating the existance for  care provided in the community</name>
+            <title>validating the existance for  care provided in the community</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='588e9cb8-d2e6-4085-b508-bc0c97d1258c-attachment.mp4' type='video/mp4' size='182'/>
+            </attachments>
+        </test-case>
+        <test-case start='1585018523600' status='passed' stop='1585018523698'>
+            <name>validating the existance for community review card </name>
+            <title>validating the existance for community review card </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+                <parameter kind='argument' name='browserVersion' value='74.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='8c4ec5f5-03b8-4a0b-a4ab-c81b00511699-attachment.mp4' type='video/mp4' size='173'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

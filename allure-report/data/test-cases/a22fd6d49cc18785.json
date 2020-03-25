@@ -1,0 +1,157 @@
+{
+  "uid" : "a22fd6d49cc18785",
+  "name" : "validating the existance for phonenumber and review wrapper in detail screen",
+  "fullName" : "communityapgetests.validating the existance for phonenumber and review wrapper in detail screen",
+  "historyId" : "bff04dc92b1a1b452a8c7b2164325209",
+  "time" : {
+    "start" : 1585053852109,
+    "stop" : 1585053852348,
+    "duration" : 239
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "88ef0109d46e9ad3",
+      "name" : "Execution video",
+      "source" : "88ef0109d46e9ad3.mp4",
+      "type" : "video/mp4",
+      "size" : 1743
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "testClass",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "testMethod",
+    "value" : "validating the existance for phonenumber and review wrapper in detail screen"
+  }, {
+    "name" : "package",
+    "value" : "communityapgetests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-10.0"
+  }, {
+    "name" : "browserVersion",
+    "value" : "74.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f6c030792655959",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585051609583,
+        "stop" : 1585051609666,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "f17c14e54de9353e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585018523137,
+        "stop" : 1585018523268,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "9683cf5808da9eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585018469825,
+        "stop" : 1585018469910,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "b0d9bca62fc90123",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585018360458,
+        "stop" : 1585018360524,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "8fa3de450efcac5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585018301119,
+        "stop" : 1585018301147,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "82dda517d353396e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585016822207,
+        "stop" : 1585016822232,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "2da5d02a887824f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585016661632,
+        "stop" : 1585016661730,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "9f4d3f785246b1bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585016446763,
+        "stop" : 1585016446814,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "46792a809bb49ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585016027018,
+        "stop" : 1585016027114,
+        "duration" : 96
+      }
+    }, {
+      "uid" : "2d66d723315a0ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585015309738,
+        "stop" : 1585015316062,
+        "duration" : 6324
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a22fd6d49cc18785.json",
+  "parameterValues" : [ "firefox-10.0", "74.0" ]
+}

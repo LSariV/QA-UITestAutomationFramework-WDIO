@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Element <span>...</span> is not clickable at point (227, 588). Other element would receive the click: <div class=\"pac-container pac-logo\" style=\"width: 294px; position: absolute; left: 78px; top: 548px;\">...</div>\n                  (Session info: chrome=79.0.3945.130)\n                  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18363 x86_64)",
+      "children" : [ {
+        "name" : "submit the  first lead form in apfmhome",
+        "uid" : "1455b3ac7591ec7c",
+        "parentUid" : "66ca84a6a8635618b076647b8cd9b176",
+        "status" : "broken",
+        "time" : {
+          "start" : 1585161134561,
+          "stop" : 1585161138756,
+          "duration" : 4195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-79.0.3945.130" ]
+      } ],
+      "uid" : "66ca84a6a8635618b076647b8cd9b176"
+    }, {
+      "name" : "element (\"#leadFormFullname\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "submit the homepagestep2 lead form ",
+        "uid" : "1230927ba415202c",
+        "parentUid" : "e2571056cd3f81e7ed28550ecb92f2d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1585161138781,
+          "stop" : 1585161150101,
+          "duration" : 11320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-79.0.3945.130" ]
+      } ],
+      "uid" : "e2571056cd3f81e7ed28550ecb92f2d3"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
