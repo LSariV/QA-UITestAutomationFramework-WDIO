@@ -11,6 +11,7 @@
     "browserstack-single": "./node_modules/.bin/wdio singlebs.conf.js",
     "allure-report": "node_modules/.bin/allure generate --clean ./Tests/reports/allure/allure-results && allure open",
     "selenium-standalone": "node_modules/.bin/selenium-standalone start"
+  
   },
   "keywords": [],
   "author": "",
