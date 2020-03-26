@@ -131,7 +131,10 @@ exports.config = {
         webhook:
           process.env.SLACK_WEBHOOK_URL || "https://hooks.slack.com/services/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"
       }
-    ]
+    ] ,
+
+    ['intercept'],
+    
     /* ['image-comparison',
 
    {
