@@ -1,3 +1,5 @@
+//original config file
+
 var config = require("./configUrations/main-config");
 const video = require("wdio-video-reporter");
 var slack = require("wdio-slack-service");
