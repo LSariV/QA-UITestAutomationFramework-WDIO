@@ -161,7 +161,7 @@ exports.config = {
   // see also: https://webdriver.io/docs/dot-reporter.html
 
   reporters: [
-    "spec",
+    'dot','spec',
 
     [
       video,
