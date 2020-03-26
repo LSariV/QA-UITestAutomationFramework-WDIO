@@ -1,4 +1,4 @@
-var config = require("./configarations/main-config");
+var config = require("./configUrations/main-config");
 const video = require("wdio-video-reporter");
 var slack = require("wdio-slack-service");
 exports.config = {
