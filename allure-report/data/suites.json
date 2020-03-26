@@ -5,117 +5,39 @@
     "name" : "Navigate to apfmhome",
     "children" : [ {
       "name" : "assert title of apfm",
-      "uid" : "2248666f30dfe8cd",
+      "uid" : "3dbee5a51a721c03",
       "parentUid" : "e70ac131e533c5a7c1224a434990a9f7",
       "status" : "passed",
       "time" : {
-        "start" : 1585009246017,
-        "stop" : 1585009248607,
-        "duration" : 2590
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0" ]
-    }, {
-      "name" : "submit the  first lead form in apfmhome",
-      "uid" : "77bc8daff07ff984",
-      "parentUid" : "e70ac131e533c5a7c1224a434990a9f7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585009248607,
-        "stop" : 1585009250403,
-        "duration" : 1796
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0" ]
-    }, {
-      "name" : "submit the homepagestep2 lead form ",
-      "uid" : "780378249f5b2d1d",
-      "parentUid" : "e70ac131e533c5a7c1224a434990a9f7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585009250403,
-        "stop" : 1585009251532,
-        "duration" : 1129
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0" ]
-    }, {
-      "name" : "assert title of apfm",
-      "uid" : "6a202039bf0d6b15",
-      "parentUid" : "e70ac131e533c5a7c1224a434990a9f7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585053851184,
-        "stop" : 1585053856126,
-        "duration" : 4942
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0", "74.0" ]
-    }, {
-      "name" : "submit the  first lead form in apfmhome",
-      "uid" : "3ce123070b3d6e17",
-      "parentUid" : "e70ac131e533c5a7c1224a434990a9f7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585053856180,
-        "stop" : 1585053859865,
-        "duration" : 3685
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0", "74.0" ]
-    }, {
-      "name" : "submit the homepagestep2 lead form ",
-      "uid" : "c0061ca3e6da75e",
-      "parentUid" : "e70ac131e533c5a7c1224a434990a9f7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585053859887,
-        "stop" : 1585053867221,
-        "duration" : 7334
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0", "74.0" ]
-    }, {
-      "name" : "assert title of apfm",
-      "uid" : "a65d048e5991701",
-      "parentUid" : "e70ac131e533c5a7c1224a434990a9f7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585161124011,
-        "stop" : 1585161134515,
-        "duration" : 10504
+        "start" : 1585173669695,
+        "stop" : 1585173674394,
+        "duration" : 4699
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-79.0.3945.130" ]
     }, {
       "name" : "submit the  first lead form in apfmhome",
-      "uid" : "1455b3ac7591ec7c",
+      "uid" : "309d2cc5aff86f1f",
       "parentUid" : "e70ac131e533c5a7c1224a434990a9f7",
       "status" : "broken",
       "time" : {
-        "start" : 1585161134561,
-        "stop" : 1585161138756,
-        "duration" : 4195
+        "start" : 1585173674441,
+        "stop" : 1585173677682,
+        "duration" : 3241
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-79.0.3945.130" ]
     }, {
       "name" : "submit the homepagestep2 lead form ",
-      "uid" : "1230927ba415202c",
+      "uid" : "1726fa81f0c189cd",
       "parentUid" : "e70ac131e533c5a7c1224a434990a9f7",
       "status" : "broken",
       "time" : {
-        "start" : 1585161138781,
-        "stop" : 1585161150101,
-        "duration" : 11320
+        "start" : 1585173677703,
+        "stop" : 1585173688796,
+        "duration" : 11093
       },
       "flaky" : false,
       "newFailed" : false,
@@ -126,26 +48,13 @@
     "name" : "Destination Page leads",
     "children" : [ {
       "name" : "getpricing lead ",
-      "uid" : "7774ab1842d8b756",
+      "uid" : "6367aaeac316ff77",
       "parentUid" : "4e8c5d8166888cd4c5a23c68b4d2acb9",
       "status" : "passed",
       "time" : {
-        "start" : 1585053851190,
-        "stop" : 1585053863141,
-        "duration" : 11951
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0", "74.0" ]
-    }, {
-      "name" : "getpricing lead ",
-      "uid" : "5900f041d816dc7f",
-      "parentUid" : "4e8c5d8166888cd4c5a23c68b4d2acb9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585161124047,
-        "stop" : 1585161141857,
-        "duration" : 17810
+        "start" : 1585173669824,
+        "stop" : 1585173680682,
+        "duration" : 10858
       },
       "flaky" : false,
       "newFailed" : false,
@@ -156,130 +65,65 @@
     "name" : "communityapgetests",
     "children" : [ {
       "name" : "communitypage assertions",
-      "uid" : "86d660c70a49f9e8",
+      "uid" : "87f818768a30e74a",
       "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
       "status" : "passed",
       "time" : {
-        "start" : 1585053851288,
-        "stop" : 1585053852055,
-        "duration" : 767
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0", "74.0" ]
-    }, {
-      "name" : "validating the existance for phonenumber and review wrapper in detail screen",
-      "uid" : "a22fd6d49cc18785",
-      "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585053852109,
-        "stop" : 1585053852348,
-        "duration" : 239
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0", "74.0" ]
-    }, {
-      "name" : "validating the existance for Pricing module ",
-      "uid" : "76df30490be004b",
-      "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585053852376,
-        "stop" : 1585053852462,
-        "duration" : 86
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0", "74.0" ]
-    }, {
-      "name" : "validating the existance for  care provided in the community",
-      "uid" : "9be55924c20c58c5",
-      "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585053852535,
-        "stop" : 1585053852621,
-        "duration" : 86
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0", "74.0" ]
-    }, {
-      "name" : "validating the existance for community review card ",
-      "uid" : "5e0fe5d187b6ce16",
-      "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585053852654,
-        "stop" : 1585053852876,
-        "duration" : 222
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-10.0", "74.0" ]
-    }, {
-      "name" : "communitypage assertions",
-      "uid" : "c87389902ec761bf",
-      "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585161124824,
-        "stop" : 1585161125134,
-        "duration" : 310
+        "start" : 1585173669825,
+        "stop" : 1585173669987,
+        "duration" : 162
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-79.0.3945.130" ]
     }, {
       "name" : "validating the existance for phonenumber and review wrapper in detail screen",
-      "uid" : "14229c509007129",
+      "uid" : "36cd1103433419fa",
       "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
       "status" : "passed",
       "time" : {
-        "start" : 1585161125164,
-        "stop" : 1585161126045,
-        "duration" : 881
+        "start" : 1585173670015,
+        "stop" : 1585173670685,
+        "duration" : 670
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-79.0.3945.130" ]
     }, {
       "name" : "validating the existance for Pricing module ",
-      "uid" : "8192355743635a40",
+      "uid" : "534671cdeeeebb6a",
       "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
       "status" : "passed",
       "time" : {
-        "start" : 1585161126076,
-        "stop" : 1585161126637,
-        "duration" : 561
+        "start" : 1585173670708,
+        "stop" : 1585173671185,
+        "duration" : 477
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-79.0.3945.130" ]
     }, {
       "name" : "validating the existance for  care provided in the community",
-      "uid" : "115d86d25d1b1eea",
+      "uid" : "249e040e89324034",
       "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
       "status" : "passed",
       "time" : {
-        "start" : 1585161126659,
-        "stop" : 1585161127235,
-        "duration" : 576
+        "start" : 1585173671209,
+        "stop" : 1585173671703,
+        "duration" : 494
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-79.0.3945.130" ]
     }, {
       "name" : "validating the existance for community review card ",
-      "uid" : "7353ac96a5a01293",
+      "uid" : "1e44f7b1f96fc0b6",
       "parentUid" : "457e717c61e0c83286f4ddb40bb1506f",
       "status" : "passed",
       "time" : {
-        "start" : 1585161127263,
-        "stop" : 1585161128270,
-        "duration" : 1007
+        "start" : 1585173671724,
+        "stop" : 1585173672134,
+        "duration" : 410
       },
       "flaky" : false,
       "newFailed" : false,

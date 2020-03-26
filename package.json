@@ -9,7 +9,7 @@
     "regression": "./node_modules/.bin/wdio wdio.conf.js --suite Regression",
     "browserstack-local": "./node_modules/.bin/wdio browserstack.local.conf.js",
     "browserstack-single": "./node_modules/.bin/wdio singlebs.conf.js",
-    "allure-report": "node_modules/.bin/allure generate --clean ./reports/allure/allure-results && allure open"
+    "allure-report": "node_modules/.bin/allure generate --clean ./Tests/reports/allure/allure-results && allure open"
   },
   "keywords": [],
   "author": "",

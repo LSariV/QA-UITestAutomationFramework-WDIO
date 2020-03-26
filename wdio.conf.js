@@ -19,12 +19,12 @@ exports.config = {
   // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
   // directory is where your package.json resides, so `wdio` will be called from there.
   //
-  specs: ["./Tests/Leads/DestinationPageGetPricing.js"],
+  specs: ["./Tests/specs/Leads/DestinationPageGetPricing.js"],
 
   suites: {
-    smoke: ["./Tests/Leads/*.js"], 
+    smoke: ["./Tests/Specs/Leads/*.js"], 
 
-    Regression: ["./Tests/**/*.js"]
+    Regression: ["./Tests/Specs/**/*.js"]
   },
   // Patterns to exclude.
   exclude: [
@@ -83,7 +83,7 @@ exports.config = {
   //
   // Level of logging verbosity: trace | debug | info | warn | error | silent
   logLevel: "info",
-  outputDir: "./logs",
+  outputDir: "./Tests/logs/",
   //
   // Set specific log levels per logger
   // loggers:
@@ -168,14 +168,14 @@ exports.config = {
       {
         saveAllVideos: true, // If true, also saves videos for successful test cases
         videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-        outputDir: "./logs/videos"
+        outputDir: "./Tests/logs/videos"
       }
     ],
 
     [
       "allure",
       {
-        outputDir: "./reports/allure/allure-results",
+        outputDir: "./Tests/reports/allure/allure-results",
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: true
       }
