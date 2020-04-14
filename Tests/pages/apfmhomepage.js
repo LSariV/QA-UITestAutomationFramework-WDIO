@@ -1,9 +1,9 @@
 import basepage from "../pages/basepage";
-const elementUtil = require("../utils/elementUtil");
+const elementUtil = require("../../utils/elementUtil");
 
 class apfmhomePage extends basepage {
   open() {
-    super.open("/");
+    super.open("/home-page-step-2");
   }
 
   //page locators

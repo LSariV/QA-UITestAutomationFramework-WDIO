@@ -3,6 +3,7 @@
 var config = require("./configUrations/main-config");
 const video = require("wdio-video-reporter");
 var slack = require("wdio-slack-service");
+var envi = require("./Tests/test-data/test-env")
 exports.config = {
   //
   // ====================
@@ -21,8 +22,8 @@ exports.config = {
   // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
   // directory is where your package.json resides, so `wdio` will be called from there.
   //
-  specs: ["./Tests/specs/Leads/DestinationPageGetPricing.js"],
-
+  //specs: ["./Tests/specs/Leads/DestinationPageGetPricing.js"],
+  specs: ["./Tests/specs/Leads/Homepageleads.js"],
   suites: {
     smoke: ["./Tests/Specs/Leads/*.js"], 
 
@@ -68,7 +69,7 @@ exports.config = {
       // 5 instances get started at a time.
       maxInstances: 10,
       //
-      browserName: "chrome"
+      browserName: "chrome",
 
       // If outputDir is provided WebdriverIO can capture driver session logs
       // it is possible to configure which logTypes to include/exclude.
@@ -109,7 +110,8 @@ exports.config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: config.baseUrl,
+  //baseUrl: envi.stageEnv1:,
+  baseUrl: "https://www.aplaceformom.com/",
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,

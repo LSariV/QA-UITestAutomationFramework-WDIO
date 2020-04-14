@@ -48,31 +48,19 @@ exports.config = merge(wdioConf.config, {
   connectionRetryCount: 3, */
 
 
-   /*capabilities: [
-    // more caps defined here
-    // ...
-  {
-    capabilities: [{
-      name: 'single_appium_test',
-      build: 'webdriver-browserstack',
-      device: 'Samsung Galaxy S7',
-      browserName: 'android',
-    //  app: process.env.BROWSERSTACK_APP_ID || 'bs://<hashed app-id>',
-      'browserstack.debug': true
-    }],
-      // build: 'webdriver-browserstack'
-    }  */
-  /*  {
+   capabilities: [
+    
+   {
       browser: "firefox"
     },
 
     { browser: "internet explorer" },
     {
       browser: "safari"
-    }, */
+    }, 
    
     
- // ],
+  ],
   //host: 'hub.browserstack.com',
 
   //Code to start browserstack local before start of test

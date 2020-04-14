@@ -9,7 +9,7 @@ describe("Navigate to apfmhome", () => {
     ); //Asserting title
   });
 
-  it("submit the  first lead form in apfmhome", () => {
+  /* it("submit the  first lead form in apfmhome", () => {
     //  browser.executeScript("document.getElementById('cta-search-field').value='98011'")
     apfmhomePage.entercityorpostalcode.addValue("98002");
 
@@ -17,9 +17,11 @@ describe("Navigate to apfmhome", () => {
         footer.scrollIntoView()
         browser.pause(3000) */
 
-    browser.saveScreenshot("../../screenshots.png");
-    apfmhomePage.startmysearchButtonhomepage.click();
-  });
+ //   browser.saveScreenshot("../../screenshots.png");
+ //   apfmhomePage.startmysearchButtonhomepage.click();
+  // }); 
+  
+  
 
   it("submit the homepagestep2 lead form ", () => {
     apfmhomePage.submitStep2LeadForm(
