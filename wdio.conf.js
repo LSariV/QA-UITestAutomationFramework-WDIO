@@ -1,9 +1,26 @@
 //original config file
+//require('dotenv').config()
 
 var config = require("./configUrations/main-config");
 const video = require("wdio-video-reporter");
 var slack = require("wdio-slack-service");
-var envi = require("./Tests/test-data/test-env")
+var url = require("./Tests/test-data/test-env")
+
+//condition to pick the base url based on env given at run time
+let baseUrl = 'https://www.aplaceformom.com/';
+if(process.env.SERVER === "prod") {
+  baseUrl=url.url
+}
+
+if(process.env.SERVER === "stage") {
+  baseUrl = url.url
+}
+
+if(process.env.SERVER === "qa") {
+  baseUrl = url.url
+}
+
+
 exports.config = {
   //
   // ====================
@@ -23,7 +40,7 @@ exports.config = {
   // directory is where your package.json resides, so `wdio` will be called from there.
   //
   //specs: ["./Tests/specs/Leads/DestinationPageGetPricing.js"],
-  specs: ["./Tests/specs/Leads/Homepageleads.js"],
+  specs: ["./Tests/specs/Leads/commuLoginTest.js"],
   suites: {
     smoke: ["./Tests/Specs/Leads/*.js"], 
 
@@ -110,8 +127,11 @@ exports.config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  //baseUrl: envi.stageEnv1:,
-  baseUrl: "https://www.aplaceformom.com/",
+  
+  //baseUrl is defined at teh top the page based on the condition
+  baseUrl: baseUrl,
+  
+ // baseUrl: "https://www.aplaceformom.com/",
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
