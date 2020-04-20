@@ -128,7 +128,7 @@ exports.config = {
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
   
-  //baseUrl is defined at teh top the page based on the condition
+  //baseUrl is defined at teh top the page based on the condition selected 
   baseUrl: baseUrl,
   
  // baseUrl: "https://www.aplaceformom.com/",
