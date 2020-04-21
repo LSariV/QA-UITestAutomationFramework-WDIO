@@ -35,3 +35,7 @@ npm run suites --smoke
 to run the smoke suite mentioned in parent config file or specific config file as per the data in package.json
 
 Please read the deataiuled dociumentation from this confluence page https://bitbucket.org/TestAutomation-WDIO/webdriver-v5-ui/src/master/
+
+All the upadtes to the framework will be updates in the confluence page.
+
+Thankyou!
