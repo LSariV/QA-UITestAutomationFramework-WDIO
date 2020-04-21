@@ -34,7 +34,7 @@ This will trigger the default test mentioned in wdio config.json > spec []
 npm run suites --smoke
 to run the smoke suite mentioned in parent config file or specific config file as per the data in package.json
 
-Please read the deatailed dociumentation from this confluence page https://bitbucket.org/TestAutomation-WDIO/webdriver-v5-ui/src/master/
+Please read the deatailed documentation from this confluence page https://bitbucket.org/TestAutomation-WDIO/webdriver-v5-ui/src/master/
 
 All the upadtes to the framework will be updates in the confluence page.
 
