@@ -10,8 +10,8 @@ exports.config = merge(wdioConf.config, {
 
     services: ["browserstack" , "appium"],
   
-  user: process.env.BROWSERSTACK_USERNAME || "lakshmisarithava1",
-  key: process.env.BROWSERSTACK_ACCESS_KEY || "rv8PD65oDji5pEDU9tSW",
+  user: process.env.BROWSERSTACK_USERNAME || "lakshmisari***",
+  key: process.env.BROWSERSTACK_ACCESS_KEY || "***********",
   browserstackLocal: true,
 
   maxInstances: 6,
