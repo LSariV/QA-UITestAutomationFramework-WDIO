@@ -3,8 +3,8 @@ var merge = require("deepmerge");
 var wdioConf = require("../wdio.conf.js");
 exports.config = merge(wdioConf.config, {
   /*   services: ['browserstack'],
-    user: process.env.lakshmisarithava1,
-    key: process.env.rv8PD65oDji5pEDU9tSW,
+    user: process.env.lakshmi,
+    key: process.env.rv8PD65o,
     
     browserstackLocal: true, */
 
